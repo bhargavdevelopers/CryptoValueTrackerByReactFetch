@@ -1,0 +1,60 @@
+.currency-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .currency-item-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+.currency-logo-name-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+  }
+}
+.currency-name {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .currency-name {
+    font-size: 17px;
+  }
+}
+.currency-value-container {
+  display: flex;
+  align-items: center;
+}
+.usd-euro-value {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  width: 52px;
+  margin-left: 10px;
+  text-align: right;
+}
+@media screen and (min-width: 768px) {
+  .usd-euro-value {
+    font-size: 17px;
+    margin-left: 45px;
+    width: 64px;
+  }
+}
